@@ -1,0 +1,93 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.card-container {
+  background-color: #150b3e;
+  padding-top: 40px;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.initial-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c7d2fe;
+  height: 48px;
+  width: 48px;
+  border-radius: 24px;
+}
+.initial {
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.name-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.round-button {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  font-size: 20px;
+}
+
+.name {
+  color: #d4d2db;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.balance-name {
+  color: #585076;
+  font-size: 25px;
+  font-family: roboto;
+}
+
+.balance {
+  color: #c4c4c4;
+  margin-bottom: 0px;
+}
+
+.rupees {
+  text-align: right;
+  margin-top: 0px;
+  color: #585076;
+}
+.withdraw {
+  color: #c4c4c4;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.choose {
+  color: #585076;
+  font-size: 16px;
+  font-family: roboto;
+}
+.button-container {
+  display: flex;
+
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
